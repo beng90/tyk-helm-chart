@@ -1,4 +1,4 @@
-CHART_NAME=tyk-headless
+CHART_NAME?=tyk-headless
 
 test:
 	helm lint $(CHART_NAME)
